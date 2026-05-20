@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "neoagent"
+version = "0.1.0"
+description = "Lightweight reference implementation of variant-aware retrieval-augmented question answering"
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [{ name = "NeoAgent contributors" }]
+keywords = [
+    "retrieval-augmented-generation",
+    "question-answering",
+    "neologism",
+    "lexical-variation",
+    "bm25",
+]
+dependencies = ["matplotlib>=3.5"]
+
+[project.optional-dependencies]
+test = ["pytest>=7.0"]
+
+[tool.setuptools]
+packages = ["neoagent"]
+
+[tool.setuptools.package-data]
+neoagent = ["py.typed"]

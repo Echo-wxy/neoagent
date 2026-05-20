@@ -1,0 +1,158 @@
+[
+  {
+    "word": "rizz",
+    "ref": "trending TikTok slang 2023",
+    "attributes": {
+      "definition": "charisma or skill in attracting a romantic partner",
+      "domain": "social media",
+      "sentiment": "positive",
+      "origin_year": 2022,
+      "usage_count": 48000
+    },
+    "variants": ["rizz", "rizzler", "rizzed up", "w rizz", "unspoken rizz"],
+    "related": ["sigma", "gyatt"]
+  },
+  {
+    "word": "sigma",
+    "ref": "internet personality archetype meme",
+    "attributes": {
+      "definition": "a self-reliant, independent male archetype outside social hierarchy",
+      "domain": "internet culture",
+      "sentiment": "neutral",
+      "origin_year": 2021,
+      "usage_count": 73000
+    },
+    "variants": ["sigma", "sigma male", "sigma grindset", "looksmaxxing sigma"],
+    "related": ["rizz", "grindset"]
+  },
+  {
+    "word": "gyatt",
+    "ref": "streamer exclamation slang",
+    "attributes": {
+      "definition": "an exclamation expressing admiration, derived from a stylized pronunciation",
+      "domain": "streaming",
+      "sentiment": "positive",
+      "origin_year": 2022,
+      "usage_count": 31000
+    },
+    "variants": ["gyatt", "gyat", "gyatt damn"],
+    "related": ["rizz"]
+  },
+  {
+    "word": "grindset",
+    "ref": "hustle-culture portmanteau",
+    "attributes": {
+      "definition": "a relentless work-focused mindset, blend of grind and mindset",
+      "domain": "productivity",
+      "sentiment": "neutral",
+      "origin_year": 2020,
+      "usage_count": 56000
+    },
+    "variants": ["grindset", "hustle grindset", "sigma grindset"],
+    "related": ["sigma"]
+  },
+  {
+    "word": "ecircle",
+    "ref": "esports energy drink meme thread",
+    "attributes": {
+      "definition": "an in-joke referring to energy-drink culture in competitive esports",
+      "domain": "esports",
+      "sentiment": "humorous",
+      "origin_year": 2023,
+      "usage_count": 12000
+    },
+    "variants": ["e-circle", "ecircle drink", "energy circle meme", "esports drink joke"],
+    "related": ["poggers"]
+  },
+  {
+    "word": "poggers",
+    "ref": "Twitch emote slang",
+    "attributes": {
+      "definition": "an expression of excitement or hype, originating from a Twitch emote",
+      "domain": "streaming",
+      "sentiment": "positive",
+      "origin_year": 2019,
+      "usage_count": 95000
+    },
+    "variants": ["poggers", "pog", "pogchamp", "poggies"],
+    "related": ["ecircle"]
+  },
+  {
+    "word": "delulu",
+    "ref": "K-pop fandom shorthand",
+    "attributes": {
+      "definition": "playful term for being delusional, often about unrealistic hopes",
+      "domain": "fandom",
+      "sentiment": "humorous",
+      "origin_year": 2023,
+      "usage_count": 27000
+    },
+    "variants": ["delulu", "delulu is the solulu", "delusional era"],
+    "related": ["solulu"]
+  },
+  {
+    "word": "solulu",
+    "ref": "companion rhyme to delulu",
+    "attributes": {
+      "definition": "the solution, used as a rhyming partner to delulu",
+      "domain": "fandom",
+      "sentiment": "humorous",
+      "origin_year": 2023,
+      "usage_count": 9000
+    },
+    "variants": ["solulu", "the solulu"],
+    "related": ["delulu"]
+  },
+  {
+    "word": "skibidi",
+    "ref": "short-form video series catchphrase",
+    "attributes": {
+      "definition": "a nonsense term popularized by a viral animated series, used as filler hype",
+      "domain": "short-form video",
+      "sentiment": "humorous",
+      "origin_year": 2023,
+      "usage_count": 64000
+    },
+    "variants": ["skibidi", "skibidi toilet", "skibidi ohio"],
+    "related": ["ohio"]
+  },
+  {
+    "word": "ohio",
+    "ref": "surreal-meme location shorthand",
+    "attributes": {
+      "definition": "ironic shorthand for something strange or chaotic, decoupled from the US state",
+      "domain": "meme",
+      "sentiment": "humorous",
+      "origin_year": 2022,
+      "usage_count": 41000
+    },
+    "variants": ["ohio", "only in ohio", "ohio final boss"],
+    "related": ["skibidi"]
+  },
+  {
+    "word": "mid",
+    "ref": "dismissive quality rating slang",
+    "attributes": {
+      "definition": "describing something as mediocre or unremarkable",
+      "domain": "internet culture",
+      "sentiment": "negative",
+      "origin_year": 2021,
+      "usage_count": 88000
+    },
+    "variants": ["mid", "so mid", "peak vs mid"],
+    "related": ["peak"]
+  },
+  {
+    "word": "peak",
+    "ref": "high-praise slang antonym to mid",
+    "attributes": {
+      "definition": "describing something as excellent, the opposite of mid",
+      "domain": "internet culture",
+      "sentiment": "positive",
+      "origin_year": 2022,
+      "usage_count": 52000
+    },
+    "variants": ["peak", "peak fiction", "absolute peak"],
+    "related": ["mid"]
+  }
+]
