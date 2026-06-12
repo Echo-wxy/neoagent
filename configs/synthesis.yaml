@@ -1,0 +1,8 @@
+# Variant-constrained synthesis + verification (Eq. 2-4, Alg. 1; Sec. 2.4).
+schemas: [def, date, cat, sent]        # answer-schema indicators sigma
+repeats: 3                             # stochastic masks per root
+rho_k_top_k: 100                       # top-K retrieval probe (default K=100)
+verification:
+  teacher: o3-2025-04-16
+  trials: 5
+  min_correct: 3                       # keep if correct in >= 3/5 trials with >= 1 search

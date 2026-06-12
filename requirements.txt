@@ -1,0 +1,18 @@
+# Core (lightweight components run on the stdlib; these enable the full pipeline)
+pyyaml>=6.0
+numpy>=1.24
+tqdm>=4.66
+
+# Teacher trajectory generation / verification + student inference (OpenAI-compatible)
+openai>=1.30
+
+# Semantic filtering + cross-encoder reranking (Sec. 2.5)
+sentence-transformers>=2.7
+
+# SFT of Llama-3-8B (Eq. 6)
+torch>=2.1
+transformers>=4.43
+accelerate>=0.30
+deepspeed>=0.14
+datasets>=2.19
+# flash-attn>=2.5         # optional; enables attn_implementation="flash_attention_2"

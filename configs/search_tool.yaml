@@ -1,0 +1,10 @@
+# Variant-aware search tool (Eq. 5).
+chunk_top_k: 20                        # BM25_k default k
+results_top_n: 3                       # evidence chunks kept after rerank
+variant_expansion: true               # set false for the "w/o VarExp" ablation
+max_variants: 3                        # ell <= 3
+embed_model: sentence-transformers/all-MiniLM-L6-v2
+rerank_model: cross-encoder/ms-marco-MiniLM-L-6-v2
+variant_expander_checkpoint: null     # path to learned char-level model; null -> rule fallback
+summarizer_model: o3-2025-04-16       # null to skip stage-5 summarization
+backend: web                          # web | offline
